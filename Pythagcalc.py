@@ -50,7 +50,7 @@ class box(QMainWindow):
         button = QPushButton("Solve")
         button.clicked.connect(button_clicked)
         layout = QFormLayout()
-        cwidget = QWidget()
+        cwidget = QWidget()    
         layout.addWidget(lineedit)
         layout.addWidget(lineedit2)
         layout.addWidget(button)
